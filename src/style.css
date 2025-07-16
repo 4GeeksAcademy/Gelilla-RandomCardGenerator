@@ -1,5 +1,51 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(39, 217, 66);
+  
+}
+.card{
+    width:300px;
+    margin:auto;
+    border: 1px solid white ;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.num{
+    display: flex;
+    color: black;
+    justify-content:center;
+    font-size:120px;
+    
+}
+.heart{
+    color: red;
+    display:none;
+}
+.spade, .club , .diamond {
+    display:none;
+
+}
+
+.footer-icon{
+    align-self:flex-end;
+    padding-bottom:0px;
+    margin-right:6px;
+    margin-bottom:-20px;;
+    rotate:180deg;
+    font-size:100px;
+}
+.top-icon{
+    font-size:100px;
+    margin-top: -10px;
+}
+
+#new-btn-generator{
+    display:block;
+    border-radius: 20%;
+    width:250px;
+    margin: 0 auto;
+    padding:10px;
+    margin-top:5px;
 }

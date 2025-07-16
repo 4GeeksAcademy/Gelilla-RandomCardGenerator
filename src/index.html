@@ -16,18 +16,29 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="card">
+         <div class="heart">
+          <p class="top-icon">♥</p>
+          <p class="num"></p>
+          <p class="footer-icon">♥</p>
+      </div> 
+       <div class="club">
+           <p class="top-icon">♣</p>
+           <p class="num"></p>
+           <p class="footer-icon">♣</p>
       </div>
+       <div class="diamond">
+            <p class="top-icon">♦</p>
+            <p class="num"></p>
+            <p class="footer-icon">♦</p>
+      </div>
+       <div class="spade">
+          <p class="top-icon">♠</p>
+          <p class="num"></p>
+          <p class="footer-icon">♠</p>
+      </div> 
     </div>
+    <button id="new-btn-generator" type="button">Click For New Card</button>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
